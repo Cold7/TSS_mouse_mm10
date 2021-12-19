@@ -1,0 +1,3 @@
+el archivo tss original fue descargado desde https://ccg.epfl.ch//mga/mm10/ucsc/ucsc.html.
+
+Luego, con el script script.py se leyo linea a linea, donde se transformo el cromosoma (por ejemplo de NC_000087 a Y; datos descargados desde ncbi https://www.ncbi.nlm.nih.gov/nuccore/NC_000087.7) y luego en funcion de la hebra se sumaba un uno o se restaba un uno a la coordenada (hebra positiva mantengo la coordenada como de inicio y le sumo 1 para la de termino; en caso de hebra negativa le resto 1 a la coordenada del TSS original, dejandola como cordenada de inicio, mientras que la coordenada original queda como de termino), dejando finalmente info de cromosoma, coordenada de inicio y de termino para realizar los heatmaps
